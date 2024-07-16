@@ -1,13 +1,34 @@
-<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# ReactJsApp
-This is a frontend website that shows diferent pet information.
->>>>>>> 02e1d71d76116d1ffc2587bfe15078ba0f67b705
+# Pet Expo
+
+Welcome to the Pet Expo project! This is a React-based web application that celebrates the joy and companionship that pets bring into our lives. Our mission is to provide a comprehensive and engaging resource for pet enthusiasts.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Introduction
+Pet Expo is a platform where pet lovers can explore beautiful photos and detailed information about a variety of pets, including cats, dogs, and birds.
+
+## Features
+- Extensive Pet Gallery
+- Educational Content
+- Community Engagement
+- Detailed Pet Information
+
+## Installation
+
+To get a local copy up and running follow these simple steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
