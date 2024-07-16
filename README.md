@@ -36,10 +36,10 @@ cd ReactJsApp
 3. Install dependencies:
 npm install
 
-##Run
+## Running Website
 npm run dev 
 
-##Images
+## Images from Running Website
 Home Page
 ![image](https://github.com/user-attachments/assets/7efbb637-216a-4af6-8f1b-14644b054441)
 
