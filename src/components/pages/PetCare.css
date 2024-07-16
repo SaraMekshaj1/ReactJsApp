@@ -1,0 +1,26 @@
+/* PetCare.css */
+
+.pet-care-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .pet-care-container p {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .pet-care-container h3 {
+    color: #2c3e50;
+    margin-top: 20px;
+  }
+  
+  .pet-care-container img.pet-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

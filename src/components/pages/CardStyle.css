@@ -1,0 +1,99 @@
+/* Modal Styles */
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 8%, 3%, 0.1);
+  max-width: 500px;
+  width: 80%;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+}
+
+/* Card Styles */
+.card_item {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 8%, 3%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  max-width: 250px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.card_item .card-image {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card_item .name {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+}
+
+.card_item .origin {
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 30%);
+}
+
+.card_detail .card-image {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card_detail .name,
+.card_detail .species,
+.card_detail .family,
+.card_detail .habitat,
+.card_detail .origin,
+.card_detail .diet,
+.card_detail .wingspan,
+.card_detail .weight,
+.card_detail .description {
+  font-family: Arial, sans-serif;
+  margin: 10px 0;
+  color: hsl(0, 0%, 20%);
+}
+
+.card_detail button {
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  background-color: hsl(0, 0%, 80%);
+  border: none;
+  border-radius: 5px;
+}
+/* Search Bar Styles */
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 5px;
+  width: 80%; /* Adjust this width to your preference */
+  max-width: 600px; /* Optionally set a max-width for large screens */
+}
